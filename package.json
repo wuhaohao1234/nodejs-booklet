@@ -7,7 +7,7 @@
     "build": "npx tsc",
     "dev": "npx tsc -w",
     "lint": "npx tslint --project tslint.json",
-    "start": "npx cross-env NODE_ENV=production node dist/index.js"
+    "start": "npx cross-env NODE_ENV=production nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@types/node": "^12.7.5"
+    "@types/node": "^12.7.5",
+    "nodemon": "^1.19.2"
   }
 }

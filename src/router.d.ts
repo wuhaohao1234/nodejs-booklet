@@ -1,0 +1,1 @@
+declare function route(pathName: string): void
